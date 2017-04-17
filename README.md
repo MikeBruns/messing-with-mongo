@@ -7,7 +7,21 @@ Mongo is a NoSQL database, meaning it does not need the structure as an SQL data
 </br></br>
 
 <h2>Using Mongo</h2>
-<ul>
-<li>Install Mongo</li>
-<li>Create db with the `use <dbname>` command</li> 
-</ul>
+
+Start mongo db in one terminal window
+
+`mongod`
+
+Then in another terminal window to access mongo databases
+
+`mongo`
+
+View tables
+
+`show dbs`
+
+Add or enter a db
+
+`use <databaseName>`
+
+
